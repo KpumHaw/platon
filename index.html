@@ -1,0 +1,134 @@
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient("pink, white, blue");
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: blue;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: liteblue;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url() center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0px 4px 6px rgba(0,0,0,0.5);
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px;
+      font-size: 1.5rem;
+      color: #444;
+    }
+
+    .card p {
+      margin: 0 15px 20px;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    footer {
+      background: #ffb6c1;
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍦 IceDream</h1>
+    <nav>
+  <a href="2.html">дивні смаки морозива</a>
+</nav>
+  </header>
+
+  <section class="hero">
+    Скуштуй найсмачніше морозиво літа! 🍨
+  </section>
+
+  <section class="container">
+    <div class="card">
+      <img src="https://deluxe.com.ua/media/img/uploads/image/homemadevanilliaicecream.jpg" alt="Ванільне">
+      <h3>Ванільне</h3>
+      <p>Класика смаку з ніжним ароматом справжньої ванілі.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://shefkuhar.com.ua/uploads/posts/2017-06/1496844794_shokoladne-morozivo-v-domashnh-umovah.jpg" alt="Шоколадне">
+      <h3>Шоколадне</h3>
+      <p>Насичений шоколадний смак для справжніх гурманів.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://eco-buffet.com/wp-content/uploads/2024/07/summer-ice-cream-with-raspberry.jpg" alt="Фруктове">
+      <h3>Фруктове</h3>
+      <p>Легке та освіжаюче морозиво з натуральних фруктів.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 IceDream | Усі права захищено
+  </footer>
+</body>
+</html>
